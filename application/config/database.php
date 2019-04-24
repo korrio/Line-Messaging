@@ -48,11 +48,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'all';
+$db['default']['password'] = 'all';
+$db['default']['database'] = 'thaipbs';
+$db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = FALSE;
 $db['default']['db_debug'] = TRUE;

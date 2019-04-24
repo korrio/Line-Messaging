@@ -18,6 +18,8 @@ class Messages extends CI_Controller {
 										LIMIT 50");
 		
 		$pass['data'] = $getMessage->result_array();
+
+		//print_r($pass['data']);
 		
 		$data = array(
 						'body'=>$this->load->view('messages/push/index', $pass , TRUE),

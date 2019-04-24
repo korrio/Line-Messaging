@@ -29,6 +29,9 @@ Class Messages_model extends CI_Model
 			$text = $row->content->text;
 			$profile_url = 'https://api.line.me/v2/bot/profile/'.$from;
 			$user = json_decode($this->apiVerify($profile_url));
+
+			//print_r($user);
+
 			$displayName = $user->displayName;
 			$pictureUrl = $user->pictureUrl;
 

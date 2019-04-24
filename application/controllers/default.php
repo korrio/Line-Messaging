@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php 
+     function base_url() {
+        //return $this->load->helper('url');
+        return "http://localhost/2019/crm/";
+    }
+
+?>
 
 <head>
 

@@ -36,7 +36,8 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-define('LINE_ACCESS_TOKEN','');
+define('LINE_ACCESS_TOKEN','vy95BN5ohbBem7DUddS16iNKx/n2p0bkJ2AvfNK6EJi2PUUS9hEgHlCeCAflXo7ZQf2hDVY1uGLlx4sbv3VlVOCrtNSQMokGQ4EaLzKK7pCLrdkAgnJxB7j6NDCn9Yil3/OKpMgK/y5cbb/g9GkH2wdB04t89/1O/w1cDnyilFU=
+');
 define('XML_LIMIT',50);
 
 /* End of file constants.php */

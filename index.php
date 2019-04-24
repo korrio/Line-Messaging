@@ -18,7 +18,8 @@ date_default_timezone_set('Asia/Bangkok');
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'production');
+	//define('ENVIRONMENT', 'development');
+define('ENVIRONMENT', 'production');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
